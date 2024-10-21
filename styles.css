@@ -1,0 +1,144 @@
+body {
+    display: grid;
+    place-content: center;
+    background-color: rgb(215, 212, 227);
+}
+
+.container-1 {
+    border: 1px ;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(140, 121, 148);
+    display: grid;
+    grid-template-rows: 35% 45% 20%;
+    margin-right: 20px;
+    
+}
+
+.photo {
+    width: 350px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.body {
+    padding: 0px 30px 20px 30px;
+}
+
+.info .header {
+    font-family: Georgia;
+    font-size: 30px;
+    color: rgb(67, 56, 98);
+}
+
+.info .text {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(93, 96, 111);
+}
+
+.body .profile {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+
+
+.body .profile img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.body .profile .name {
+    display: flex;
+    flex-direction: column;
+}
+
+.body .profile .name h4 {
+    margin-bottom: 0px;
+    margin-top: 23px;
+    font-size: 15px;
+    color: rgb(67, 56, 98);
+    font-family: Georgia;
+}
+
+.body .profile .name {
+    color: rgb(93, 96, 111);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-1 .body .profile .date {
+    color: rgb(93, 96, 111);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-self: end;
+}
+
+.container-2 {
+    border: 1px ;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(140, 121, 148);
+    display: grid;
+    grid-template-rows: 35% 45% 20%;
+}
+
+.container-2 .body .profile .date {
+    color: rgb(93, 96, 111);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-self: end;
+}
+
+.container-3 {
+    border: 1px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(140, 121, 148);
+    display: grid;
+    grid-template-rows: 35% 45% 20%;
+}
+
+.body .profile .date {
+    color: rgb(93, 96, 111);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-self: end;
+}
+
+hr {
+    border: 1px solid rgb(212, 212, 212);
+}
+
+.container-2 .new {
+    position: absolute;
+    border: 1px solid rgb(255, 79, 158);
+    background-color: rgb(255, 79, 158);
+    color: white;
+    font-family: sans-serif;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 7px;
+    box-shadow: 0px 1px 2px rgb(255, 79, 158);
+    top: 75px;
+    left: 600px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
